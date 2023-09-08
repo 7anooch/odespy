@@ -1255,12 +1255,12 @@ The file `logistic10.py <https://github.com/hplgit/odespy/blob/master/doc/src/od
 with :math:`f(u,t)` implemented in Fortran.
 '''
 
-from solvers import *
-from RungeKutta import *
-from rkc import *
-from rkf45 import *
-from odepack import *
-from radau5 import *
+from .solvers import *
+from .RungeKutta import *
+from .rkc import *
+from .rkf45 import *
+from .odepack import *
+from .radau5 import *
 import problems
 
 # Update doc strings with common info
